@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DE89562494F010009F448A /* DataDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE89552494F010009F448A /* DataDownloadManager.swift */; };
+		04E8A2B22490D93600DCDD63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2B12490D93600DCDD63 /* AppDelegate.swift */; };
+		04E8A2BB2490D93700DCDD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E8A2BA2490D93700DCDD63 /* Assets.xcassets */; };
+		04E8A2C62490DC0D00DCDD63 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2C52490DC0D00DCDD63 /* MainTabBarViewController.swift */; };
+		04E8A2C82490DC4B00DCDD63 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2C72490DC4B00DCDD63 /* HomeViewController.swift */; };
+		04E8A2CA2490DC5E00DCDD63 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2C92490DC5E00DCDD63 /* SearchViewController.swift */; };
+		04E8A2CC2490DCB900DCDD63 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2CB2490DCB900DCDD63 /* LikeViewController.swift */; };
+		04E8A2CE2490DCEB00DCDD63 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2CD2490DCEB00DCDD63 /* ProfileController.swift */; };
+		04E8A2D02490DD3000DCDD63 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2CF2490DD3000DCDD63 /* PlusViewController.swift */; };
+		04E8A2DA24910A8400DCDD63 /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2D924910A8400DCDD63 /* HomePostCell.swift */; };
+		04E8A2DD249213EB00DCDD63 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8A2DC249213EB00DCDD63 /* DataModel.swift */; };
+		04E8A2E12492827300DCDD63 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 04E8A2DF2492827300DCDD63 /* data.json */; };
+		04E960C82496B2AE00884BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E960C72496B2AE00884BFE /* ViewController.swift */; };
+		04E960D02496B3CB00884BFE /* ANODATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E960CF2496B3CB00884BFE /* ANODATests.swift */; };
+		E7C00300E24C7A52C6C1367C /* Pods_ANODA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0406D7BCDF153B435C55675 /* Pods_ANODA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E960D22496B3CB00884BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E8A2A62490D93600DCDD63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E8A2AD2490D93600DCDD63;
+			remoteInfo = ANODA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DE89552494F010009F448A /* DataDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloadManager.swift; sourceTree = "<group>"; };
+		04E8A2AE2490D93600DCDD63 /* ANODA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANODA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E8A2B12490D93600DCDD63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E8A2BA2490D93700DCDD63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E8A2BF2490D93700DCDD63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E8A2C52490DC0D00DCDD63 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		04E8A2C72490DC4B00DCDD63 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04E8A2C92490DC5E00DCDD63 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		04E8A2CB2490DCB900DCDD63 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		04E8A2CD2490DCEB00DCDD63 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		04E8A2CF2490DD3000DCDD63 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
+		04E8A2D924910A8400DCDD63 /* HomePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
+		04E8A2DC249213EB00DCDD63 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		04E8A2DF2492827300DCDD63 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		04E960C72496B2AE00884BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E960CD2496B3CB00884BFE /* ANODATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANODATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E960CF2496B3CB00884BFE /* ANODATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANODATests.swift; sourceTree = "<group>"; };
+		04E960D12496B3CB00884BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146F132CAF3FE2634320CC77 /* Pods-ANODA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANODA.debug.xcconfig"; path = "Target Support Files/Pods-ANODA/Pods-ANODA.debug.xcconfig"; sourceTree = "<group>"; };
+		5C321ACC5FB346DB5994B8E1 /* Pods-ANODA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANODA.release.xcconfig"; path = "Target Support Files/Pods-ANODA/Pods-ANODA.release.xcconfig"; sourceTree = "<group>"; };
+		F0406D7BCDF153B435C55675 /* Pods_ANODA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANODA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E8A2AB2490D93600DCDD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C00300E24C7A52C6C1367C /* Pods_ANODA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E960CA2496B3CB00884BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E8A2A52490D93600DCDD63 = {
+			isa = PBXGroup;
+			children = (
+				04E8A2B02490D93600DCDD63 /* ANODA */,
+				04E960CE2496B3CB00884BFE /* ANODATests */,
+				04E8A2AF2490D93600DCDD63 /* Products */,
+				FC07853D36B20070396A6BED /* Pods */,
+				1D911E240706EA3E0D233A6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E8A2AF2490D93600DCDD63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E8A2AE2490D93600DCDD63 /* ANODA.app */,
+				04E960CD2496B3CB00884BFE /* ANODATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E8A2B02490D93600DCDD63 /* ANODA */ = {
+			isa = PBXGroup;
+			children = (
+				04E960C2249667D700884BFE /* ViewControllers */,
+				04E960C42496A33300884BFE /* Helpers */,
+				04E960C32496A30C00884BFE /* Models */,
+				04E960C62496A38700884BFE /* SupportFiles */,
+			);
+			path = ANODA;
+			sourceTree = "<group>";
+		};
+		04E960C2249667D700884BFE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E8A2C52490DC0D00DCDD63 /* MainTabBarViewController.swift */,
+				04E8A2C72490DC4B00DCDD63 /* HomeViewController.swift */,
+				04E8A2D924910A8400DCDD63 /* HomePostCell.swift */,
+				04E8A2C92490DC5E00DCDD63 /* SearchViewController.swift */,
+				04E8A2CF2490DD3000DCDD63 /* PlusViewController.swift */,
+				04E8A2CB2490DCB900DCDD63 /* LikeViewController.swift */,
+				04E8A2CD2490DCEB00DCDD63 /* ProfileController.swift */,
+				04E960C72496B2AE00884BFE /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04E960C32496A30C00884BFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04E8A2DC249213EB00DCDD63 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04E960C42496A33300884BFE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04DE89552494F010009F448A /* DataDownloadManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		04E960C62496A38700884BFE /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				04E8A2B12490D93600DCDD63 /* AppDelegate.swift */,
+				04E8A2BA2490D93700DCDD63 /* Assets.xcassets */,
+				04E8A2DF2492827300DCDD63 /* data.json */,
+				04E8A2BF2490D93700DCDD63 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		04E960CE2496B3CB00884BFE /* ANODATests */ = {
+			isa = PBXGroup;
+			children = (
+				04E960CF2496B3CB00884BFE /* ANODATests.swift */,
+				04E960D12496B3CB00884BFE /* Info.plist */,
+			);
+			path = ANODATests;
+			sourceTree = "<group>";
+		};
+		1D911E240706EA3E0D233A6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0406D7BCDF153B435C55675 /* Pods_ANODA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC07853D36B20070396A6BED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				146F132CAF3FE2634320CC77 /* Pods-ANODA.debug.xcconfig */,
+				5C321ACC5FB346DB5994B8E1 /* Pods-ANODA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E8A2AD2490D93600DCDD63 /* ANODA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E8A2C22490D93700DCDD63 /* Build configuration list for PBXNativeTarget "ANODA" */;
+			buildPhases = (
+				124B3F70CE618AC1433A363D /* [CP] Check Pods Manifest.lock */,
+				04E8A2AA2490D93600DCDD63 /* Sources */,
+				04E8A2AB2490D93600DCDD63 /* Frameworks */,
+				04E8A2AC2490D93600DCDD63 /* Resources */,
+				87F466AE3CDFB3B64600FEDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANODA;
+			productName = ANODA;
+			productReference = 04E8A2AE2490D93600DCDD63 /* ANODA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E960CC2496B3CB00884BFE /* ANODATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E960D42496B3CB00884BFE /* Build configuration list for PBXNativeTarget "ANODATests" */;
+			buildPhases = (
+				04E960C92496B3CB00884BFE /* Sources */,
+				04E960CA2496B3CB00884BFE /* Frameworks */,
+				04E960CB2496B3CB00884BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E960D32496B3CB00884BFE /* PBXTargetDependency */,
+			);
+			name = ANODATests;
+			productName = ANODATests;
+			productReference = 04E960CD2496B3CB00884BFE /* ANODATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E8A2A62490D93600DCDD63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Aleksandr Balabon";
+				TargetAttributes = {
+					04E8A2AD2490D93600DCDD63 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					04E960CC2496B3CB00884BFE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 04E8A2AD2490D93600DCDD63;
+					};
+				};
+			};
+			buildConfigurationList = 04E8A2A92490D93600DCDD63 /* Build configuration list for PBXProject "ANODA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E8A2A52490D93600DCDD63;
+			productRefGroup = 04E8A2AF2490D93600DCDD63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E8A2AD2490D93600DCDD63 /* ANODA */,
+				04E960CC2496B3CB00884BFE /* ANODATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E8A2AC2490D93600DCDD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E8A2BB2490D93700DCDD63 /* Assets.xcassets in Resources */,
+				04E8A2E12492827300DCDD63 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E960CB2496B3CB00884BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		124B3F70CE618AC1433A363D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ANODA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F466AE3CDFB3B64600FEDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ANODA/Pods-ANODA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ANODA/Pods-ANODA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ANODA/Pods-ANODA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E8A2AA2490D93600DCDD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DE89562494F010009F448A /* DataDownloadManager.swift in Sources */,
+				04E8A2CA2490DC5E00DCDD63 /* SearchViewController.swift in Sources */,
+				04E8A2CC2490DCB900DCDD63 /* LikeViewController.swift in Sources */,
+				04E8A2DD249213EB00DCDD63 /* DataModel.swift in Sources */,
+				04E960C82496B2AE00884BFE /* ViewController.swift in Sources */,
+				04E8A2D02490DD3000DCDD63 /* PlusViewController.swift in Sources */,
+				04E8A2CE2490DCEB00DCDD63 /* ProfileController.swift in Sources */,
+				04E8A2C62490DC0D00DCDD63 /* MainTabBarViewController.swift in Sources */,
+				04E8A2B22490D93600DCDD63 /* AppDelegate.swift in Sources */,
+				04E8A2C82490DC4B00DCDD63 /* HomeViewController.swift in Sources */,
+				04E8A2DA24910A8400DCDD63 /* HomePostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E960C92496B3CB00884BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E960D02496B3CB00884BFE /* ANODATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E960D32496B3CB00884BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E8A2AD2490D93600DCDD63 /* ANODA */;
+			targetProxy = 04E960D22496B3CB00884BFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E8A2C02490D93700DCDD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E8A2C12490D93700DCDD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E8A2C32490D93700DCDD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146F132CAF3FE2634320CC77 /* Pods-ANODA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY7683D43P;
+				INFOPLIST_FILE = ANODA/SupportFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.balabon.ANODA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E8A2C42490D93700DCDD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C321ACC5FB346DB5994B8E1 /* Pods-ANODA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY7683D43P;
+				INFOPLIST_FILE = ANODA/SupportFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.balabon.ANODA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04E960D52496B3CB00884BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY7683D43P;
+				INFOPLIST_FILE = ANODATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.balabon.ANODATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANODA.app/ANODA";
+			};
+			name = Debug;
+		};
+		04E960D62496B3CB00884BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY7683D43P;
+				INFOPLIST_FILE = ANODATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.balabon.ANODATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANODA.app/ANODA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E8A2A92490D93600DCDD63 /* Build configuration list for PBXProject "ANODA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E8A2C02490D93700DCDD63 /* Debug */,
+				04E8A2C12490D93700DCDD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E8A2C22490D93700DCDD63 /* Build configuration list for PBXNativeTarget "ANODA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E8A2C32490D93700DCDD63 /* Debug */,
+				04E8A2C42490D93700DCDD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E960D42496B3CB00884BFE /* Build configuration list for PBXNativeTarget "ANODATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E960D52496B3CB00884BFE /* Debug */,
+				04E960D62496B3CB00884BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E8A2A62490D93600DCDD63 /* Project object */;
+}
